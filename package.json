@@ -39,5 +39,10 @@
   "scripts": {
     "test": "make coveralls",
     "coverage": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha -- test/lib --recursive"
-  }
+  },
+  "files":[
+    "lib",
+    "index.js",
+    "README.md"
+  ]
 }
